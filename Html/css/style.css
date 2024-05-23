@@ -1,5 +1,5 @@
 body {
-    background-image: url("Kalas.jpeg");
+    background-image: url("../images/Kalas.jpeg");
     background-size: 100%;
     background-repeat: no-repeat;
     font-family: Arial, sans-serif;
@@ -103,7 +103,6 @@ td {
 h1 {
   text-align: center;
   font-weight: bolder;
-  font-family: Nabla;
 }
 
 h2 {
@@ -119,4 +118,8 @@ h6 {
     text-align: center;
     font-weight: bolder;
 }
-
+.happy-monkey-regular {
+    font-family: "Happy Monkey", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
