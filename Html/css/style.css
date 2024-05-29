@@ -69,35 +69,30 @@ table {
     margin-right: auto;
     font-weight: bolder;
     margin-top: 10%;
-    border-color: #ad1c1c;
+    border-color: #851010;
     border-style: double;
     background-color: rgba(60, 203, 255, 0.751);
     background-clip: content-box;
 }
 
 thead {
-    border-color: #ad1c1c;
+    border-color: hsl(0, 100%, 50%);
     border-style: double;
     
 }
 
-tbody {
-    border-color: #ad1c1c;
+tbody tr:nth-child(1) {
+    border-color: #7ed620;
     border-style: double;
 }
 
-th {
-    border-color: #ad1c1c;
+tbody tr:nth-child(2) {
+    border-color: #30f8ff;
     border-style: double;
 }
 
-tr {
-    border-color: #ad1c1c;
-    border-style: double;
-}
-
-td {
-    border-color: #ad1c1c;
+tfoot {
+    border-color: #cb0ed8;
     border-style: double;
 }
 
